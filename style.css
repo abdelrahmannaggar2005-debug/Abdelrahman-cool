@@ -911,6 +911,11 @@ footer i {
 
 /* Responsive */
 @media (max-width: 768px) {
+
+    /* .MyLogo {
+        rotate: 180deg;
+    } */
+
     nav ul {
         display: none;
         flex-direction: column;
@@ -923,6 +928,10 @@ footer i {
         gap: 1rem;
         border-bottom: 1px solid rgba(59, 130, 246, 0.2);
     }
+
+    /* nav .logo img {
+        rotate: 180deg;
+    } */
 
     nav ul.active {
         display: flex;
