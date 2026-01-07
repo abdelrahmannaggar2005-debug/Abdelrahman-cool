@@ -113,7 +113,7 @@ nav a {
     padding: 5px 0;
 }
 
-nav a::after {
+nav ul li a::after {
     content: '';
     position: absolute;
     bottom: 0;
@@ -122,6 +122,10 @@ nav a::after {
     height: 2px;
     background: linear-gradient(90deg, #60a5fa, #3b82f6);
     transition: width 0.3s;
+}
+
+.nav .container .logo a {
+    background: none;
 }
 
 nav a:hover::after {
@@ -358,7 +362,7 @@ section:nth-child(even) {
 .section-title {
     text-align: center;
     font-size: 2.5rem;
-    color: #60a5fa;
+    color: #ffffff;
     margin-bottom: 50px;
     position: relative;
     padding-bottom: 15px;
