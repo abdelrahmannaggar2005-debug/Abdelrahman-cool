@@ -215,6 +215,8 @@ nav a:hover {
     animation: float 6s ease-in-out infinite, rotate3d 20s linear infinite;
     position: relative;
     z-index: 2;
+    pointer-events: none; 
+    user-select: none;
 }
 
 @keyframes float {
@@ -433,11 +435,18 @@ section.visible .about-image {
     transform: translateX(0);
 }
 
+img {
+    pointer-events: none; 
+    user-select: none;
+}
+
 .about-img {
     width: 100%;
     border-radius: 15px;
     box-shadow: 0 20px 60px rgba(59, 130, 246, 0.3);
     transition: transform 0.3s;
+    pointer-events: none; 
+    user-select: none;
 }
 
 .about-img:hover {
@@ -514,7 +523,7 @@ section.visible .highlight-item:nth-child(2) {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 30px;
-    max-width: 900px;
+    max-width: 1500px;
     margin: 0 auto;
 }
 
