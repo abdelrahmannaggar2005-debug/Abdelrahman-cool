@@ -498,7 +498,7 @@ body {
 .mobile-menu-btn span {
     width: 26px;
     height: 3px;
-    background: linear-gradient(90deg, #5c69f6, #3b82f6);
+    background: linear-gradient(90deg, #1f2cc0, #3b82f6);
     border-radius: 3px;
     transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
     box-shadow: 0 0 10px rgba(68, 88, 237, 0.6);
@@ -508,7 +508,7 @@ body {
     background: rgba(23, 26, 176, 0.25);
     border-color: rgba(42, 39, 215, 0.6);
     transform: scale(1.1);
-    box-shadow: 0 0 20px rgba(41, 47, 211, 0.4);
+    box-shadow: 0 0 20px rgba(27, 32, 183, 0.4);
 }
 
 .mobile-menu-btn:hover span {
@@ -623,7 +623,7 @@ body {
 @media (max-width: 576px) {
     .navbar {
         top: 10px;
-        width: 90%;
+        /* width: 90%; */
     }
     
     .nav-container {
