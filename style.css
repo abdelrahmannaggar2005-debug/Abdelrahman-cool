@@ -1258,10 +1258,10 @@ section.visible .highlight-item:nth-child(2) {
     box-shadow: 
         0 0 0 4px rgba(59, 130, 246, 0.2),
         0 0 20px rgba(59, 130, 246, 0.6);
-    animation: pulse 2s ease-in-out infinite;
+    animation: puls 2s ease-in-out infinite;
 }
 
-@keyframes pulse {
+@keyframes puls {
     0%, 100% {
         box-shadow: 
             0 0 0 4px rgba(59, 130, 246, 0.2),
@@ -2844,7 +2844,6 @@ footer {
 
 footer i {
     color: #60a5fa;
-    animation: pulse 1.5s infinite;
 }
 
 /* Scroll to Top Button */
