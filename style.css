@@ -548,7 +548,7 @@ body {
 @media (max-width: 968px) {
     .navbar {
         top: 15px;
-        width: calc(100% - 40px);
+        width: 90%;
     }
     
     .nav-container {
@@ -622,8 +622,8 @@ body {
 
 @media (max-width: 576px) {
     .navbar {
-        top: 10px;
-        /* width: 90%; */
+        top: 15px;
+        width: 90%;
     }
     
     .nav-container {
